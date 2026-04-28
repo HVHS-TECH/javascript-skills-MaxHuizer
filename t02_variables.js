@@ -3,8 +3,9 @@ Variables task 1
 ****************************/
 
 //Variables
-var name = "Max"
+var userName = "Max"
 var age = 15;
+var money = ""
 
 
 /************************** 
