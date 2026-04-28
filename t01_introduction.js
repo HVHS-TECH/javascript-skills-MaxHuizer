@@ -7,7 +7,6 @@ console.log("lebron is the goat")
 //Variables
 var name = "Max"
 var age = 15;
-var isStudent = true;
 
 
 /************************** 
