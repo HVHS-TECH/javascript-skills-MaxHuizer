@@ -5,7 +5,8 @@ Variables task 1
 //Variables
 var userName = "Max"
 var age = 15;
-var money = ""
+var money = "$0"
+var year = "2026"
 
 
 /************************** 
