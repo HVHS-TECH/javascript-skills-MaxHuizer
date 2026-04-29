@@ -13,7 +13,8 @@ var year = "2026"
 Main Code
 ***************************/
 console.log("Hi " + userName)
-console.log("As of " + year "you are " + age "years old.")
+console.log("As of " + year + " you are " + age + " years old.")
+console.log("You have" + pocketMoney + "dollars")
 
 
 
