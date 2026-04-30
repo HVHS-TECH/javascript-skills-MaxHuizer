@@ -9,6 +9,7 @@ var newAge = age + 10;
 var pocketMoney = 200;
 var year = "2026"
 
+const OUTPUT = document.getElementById()
 
 /************************** 
 Main Code
