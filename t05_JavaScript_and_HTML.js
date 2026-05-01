@@ -15,6 +15,8 @@ OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
 OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
 OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge + " years old" + "</p";
+pocketMoney = pocketMoney + 100;
+OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars "+ "</p>";
 
 /************************** 
 Main Code
