@@ -10,7 +10,7 @@ var pocketMoney = 200;
 var year = "2026"
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 
 /************************** 
 Main Code
