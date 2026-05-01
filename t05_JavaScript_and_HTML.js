@@ -8,6 +8,7 @@ var age = 15;
 var newAge = age + 10;
 var pocketMoney = 200;
 var year = "2026"
+var money = 200;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
@@ -27,7 +28,7 @@ Main Code
 ***************************/
 console.log("Hi " + userName)
 console.log("As of " + year + " you are " + age + " years old")
-console.log("You have $" + pocketMoney + " dollars")
+console.log("You have $" + money + " dollars")
 console.log("In 10 years you will be " + newAge + " years old")
 pocketMoney = pocketMoney + 100;
 console.log("You have $" + pocketMoney + " dollars")
