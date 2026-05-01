@@ -30,12 +30,12 @@ console.log("Hi " + userName)
 console.log("As of " + year + " you are " + age + " years old")
 console.log("You have $" + money + " dollars")
 console.log("In 10 years you will be " + newAge + " years old")
-pocketMoney = pocketMoney + 100;
-console.log("You have $" + pocketMoney + " dollars")
-pocketMoney = pocketMoney/2;
-console.log("You spend half your money now you have $" + pocketMoney)
-pocketMoney = pocketMoney + 3;
-console.log("Then you get $3, now you have $ " + pocketMoney)
+money = money + 100;
+console.log("You have $" + money + " dollars")
+money = money/2;
+console.log("You spend half your money now you have $" + money)
+money = money + 3;
+console.log("Then you get $3, now you have $ " + money)
 
 
 
