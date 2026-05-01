@@ -11,7 +11,10 @@ var year = "2026"
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML += "<p>Hello " + userName "</p>";
+OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
+OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
+OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
+OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge + " years old" + "</p";
 
 /************************** 
 Main Code
