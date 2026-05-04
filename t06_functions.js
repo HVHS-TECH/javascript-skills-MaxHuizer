@@ -13,6 +13,17 @@ var money = 200;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 welcomeFunction()
+OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
+OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
+OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
+OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge + " years old" + "</p";
+pocketMoney = pocketMoney + 100;
+OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars "+ "</p>";
+pocketMoney = pocketMoney/2;
+OUTPUT.innerHTML += "<p> You spend half your money now you have $" + pocketMoney + "</p>";
+pocketMoney = pocketMoney + 3;
+OUTPUT.innerHTML += "<p> Then you get $3, now you have $ " + pocketMoney + "</p>";
+
 /************************** 
 Main Code
 ***************************/
@@ -35,14 +46,5 @@ console.log("Then you get $3, now you have $ " + money)
  Functions
 ******************************/
 function welcomeFunction(){
-OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
-OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
-OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
-OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge + " years old" + "</p";
-pocketMoney = pocketMoney + 100;
-OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars "+ "</p>";
-pocketMoney = pocketMoney/2;
-OUTPUT.innerHTML += "<p> You spend half your money now you have $" + pocketMoney + "</p>";
-pocketMoney = pocketMoney + 3;
-OUTPUT.innerHTML += "<p> Then you get $3, now you have $ " + pocketMoney + "</p>";
+OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
 }
