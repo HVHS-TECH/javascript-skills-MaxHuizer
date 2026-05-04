@@ -26,6 +26,7 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have $ " + pocketMoney + "</p>
 /************************** 
 Main Code
 ***************************/
+writeLine()
 console.log("Running Task 05")
 console.log("Hi " + userName)
 console.log("As of " + year + " you are " + age + " years old")
@@ -43,4 +44,7 @@ console.log("Then you get $3, now you have $ " + money)
 /*****************************
  Functions
 ******************************/
-
+function (){
+// add a line to the html page
+OUTPUT.innerHTML += "<p>Less Code Matters</p>";
+}
