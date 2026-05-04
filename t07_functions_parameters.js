@@ -9,7 +9,7 @@ var money = 200;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
-welcomeFunction()
+displayWelcome("Chocolate Bar", $4);
 OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
 OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
 OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
@@ -44,5 +44,5 @@ console.log("Then you get $3, now you have $ " + money)
 ******************************/
 function displayProduct(_name, _price){
 OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
-OUTPUT.innerHTML += "<p> </p>
+OUTPUT.innerHTML += "<p>" + _name + ": " + _price"</p>"
 }
