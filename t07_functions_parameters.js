@@ -42,6 +42,7 @@ console.log("Then you get $3, now you have $ " + money)
 /*****************************
  Functions
 ******************************/
-function welcomeFunction(){
+function displayProduct(_name, _price){
 OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
+OUTPUT.innerHTML += "<p> </p>
 }
