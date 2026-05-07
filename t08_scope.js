@@ -1,4 +1,4 @@
-const output = document.getElementById("output");
+const output = document.getElementById("JavaScriptOutput");
 
 
 var myVar = 0;
