@@ -9,7 +9,6 @@ var money = 200;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
-start()
 displayProduct("Chocolate Bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
@@ -44,7 +43,6 @@ console.log("Then you get $3, now you have $ " + money)
 /*****************************
  Functions
 ******************************/
-function start() {}
 function displayProduct(_name, _price){
 OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
 OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
