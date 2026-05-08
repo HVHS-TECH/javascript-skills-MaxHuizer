@@ -9,6 +9,7 @@ var money = 200;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
+start()
 displayProduct("Chocolate Bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
