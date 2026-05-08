@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>T10-input from HTML</title>
+  <title>T10 input from HTML</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,10 +19,11 @@
   <h1>T10-input from HTML</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+  <button onclick="startFunction()">Start</button>
 
-<form onsubmit="return false;">
-  <input type="text" id="nameField">
+  <form onsubmit="return false;">
+    <label for ="formName">Name:</label>
+  <input type="text" id="nameField" name="formName">
   <input type="submit" onClick=getFormInput()>
 </form>
 
@@ -33,11 +34,8 @@
   </div>
 
 
-  <script src="../t10_input_from_HTML.js"></script>
+  <script src="../t09_activate_via_button.js"></script>
 
 </body>
 
 </html>
-<!--*************************************************************
-  END OF T10_INPUT_FROM_HTML.HTML
-**************************************************************-->
