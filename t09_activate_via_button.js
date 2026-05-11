@@ -13,7 +13,7 @@ OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 /************************** 
 Main Code
 ***************************/
-console.log("Running Task 07")
+console.log("Running Task 09")
 console.log("Hi " + userName)
 console.log("As of " + year + " you are " + age + " years old")
 console.log("You have $" + money + " dollars")
