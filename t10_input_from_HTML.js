@@ -1,7 +1,7 @@
 /* Paste your code from the last task */
 /* Paste your code from task 7 here*/
 //Variables
-var userName = "Max"
+var userName;
 var age = 15;
 var newAge = age + 10;
 var pocketMoney = 200;
@@ -9,7 +9,7 @@ var year = "2026"
 var money = 200;
 
 const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.ariaValueMax;
+let userName = NAME_FIELD.value;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
@@ -52,4 +52,9 @@ displayProduct("Drink", 2.50);
 function displayProduct(_name, _price){
 OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
 OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
+}
+
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
 }
