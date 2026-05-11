@@ -26,7 +26,6 @@ money = money + 3;
 console.log("Then you get $3, now you have $ " + money)
 
 
-
 /*****************************
  Functions
 ******************************/
