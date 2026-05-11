@@ -8,6 +8,9 @@ var pocketMoney = 200;
 var year = "2026"
 var money = 200;
 
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.ariaValueMax;
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 
