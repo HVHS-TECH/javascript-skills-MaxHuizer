@@ -1,6 +1,6 @@
 /* Paste your code from task 7 here*/
 //Variables
-var userName = "Max"
+var userName;
 var age = 15;
 var newAge = age + 10;
 var pocketMoney = 200;
