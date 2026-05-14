@@ -1,4 +1,3 @@
-/* Paste your code from task 7 here*/
 //Variables
 var userName;
 var age = 15;
@@ -52,4 +51,5 @@ function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+    startFunction();
 }
