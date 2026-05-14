@@ -1,6 +1,7 @@
 //Variables
 var userName;
 var age;
+var newAge;
 var pocketMoney = 200;
 var year = "2026"
 var money = 200;
@@ -30,7 +31,8 @@ function startFunction() {
     OUTPUT.innerHTML += "<p>Hello " + userName + "</p>";
     OUTPUT.innerHTML += "<p> As of " + year + " you are " + age + " years old" + "</p";
     OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
-    OUTPUT.innerHTML += "<p> In 10 years you will be " + age + 10 + " years old" + "</p";
+    newAge = age + 10
+    OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge  + " years old" + "</p";
     pocketMoney = pocketMoney + 100;
     OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars "+ "</p>";
     pocketMoney = pocketMoney/2;
