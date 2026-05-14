@@ -10,7 +10,7 @@ var money = 200;
 /************************** 
 Main Code
 ***************************/
-console.log("Running Task 09")
+console.log("Running Task 10")
 console.log("Hi " + userName)
 console.log("As of " + year + " you are " + age + " years old")
 console.log("You have $" + money + " dollars")
@@ -41,6 +41,7 @@ function startFunction() {
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
 }
+
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
