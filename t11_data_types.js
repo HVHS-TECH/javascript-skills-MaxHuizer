@@ -50,6 +50,7 @@ OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     userName = NAME_FIELD.value;
+    age = Number(AGE_FIELD.value);
     OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
     OUTPUT.innerHTML = "<p>Your age is "+age+" years old</p>";
     startFunction();
