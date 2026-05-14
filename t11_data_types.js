@@ -1,6 +1,6 @@
 //Variables
 var userName;
-var age = 15;
+var age;
 var newAge = age + 10;
 var pocketMoney = 200;
 var year = "2026"
@@ -51,5 +51,6 @@ function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+    OUTPUT.innerHTML = "<p>Your age is "+age+" years old</p>";
     startFunction();
 }
