@@ -2,7 +2,7 @@
 var userName;
 var age;
 var newAge;
-var pocketMoney = 200;
+var pocketMoney;
 var year = "2026"
 var money = 200;
 
@@ -51,8 +51,13 @@ function displayProduct(_name, _price){
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     userName = NAME_FIELD.value;
+
     const AGE_FIELD = document.getElementById("ageField");
     age = Number(AGE_FIELD.value);
+
+    const POCKET_MONEY_FIELD = document.getElementById("pocketMoneyField");
+    age = Number(POCKET_MONEY_FIELD.value);
+
     OUTPUT.innerHTML = "<p>Your age is "+age+" years old</p>";
     startFunction();
 }
