@@ -37,7 +37,7 @@ function startFunction() {
     pocketMoney = pocketMoney/2;
     OUTPUT.innerHTML += "<p> You spend half your money now you have $" + pocketMoney + "</p>";
     pocketMoney = pocketMoney + 3;
-    OUTPUT.innerHTML += "<p> Then you get $3, now you have $ " + pocketMoney + "</p>";
+    OUTPUT.innerHTML += "<p> Then you get $3, now you have $" + pocketMoney + "</p>";
     displayProduct("Chocolate Bar", 4);
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
