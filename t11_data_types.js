@@ -55,9 +55,5 @@ function getFormInput(){
     const AGE_FIELD = document.getElementById("ageField");
     age = Number(AGE_FIELD.value);
 
-    const POCKET_MONEY_FIELD = document.getElementById("pocketMoneyField");
-    age = Number(POCKET_MONEY_FIELD.value);
-
-    OUTPUT.innerHTML = "<p>Your age is "+age+" years old</p>";
     startFunction();
 }
