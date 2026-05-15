@@ -33,7 +33,6 @@ function startFunction() {
     OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars 🤑" + "</p>";
     newAge = age + 10
     OUTPUT.innerHTML += "<p> In 10 years you will be " + newAge  + " years old" + "</p";
-    pocketMoney = pocketMoney + 100;
     OUTPUT.innerHTML += "<p> You have $" + pocketMoney + " dollars "+ "</p>";
     pocketMoney = pocketMoney/2;
     OUTPUT.innerHTML += "<p> You spend half your money now you have $" + pocketMoney + "</p>";
