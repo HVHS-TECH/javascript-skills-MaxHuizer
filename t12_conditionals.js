@@ -60,7 +60,7 @@ function getFormInput(){
     startFunction();
 }
 
-if(pocketMoney < 100){
+if(pocketMoney < 4){
     console.log("Sorry you can't afford the chocolate bar");
 
 } else {
