@@ -64,7 +64,7 @@ function getFormInput(){
 
     } else {
     console.log("Sorry, you can't afford the chocolate bar")
-    OUTPUT.innerHTML += "<p>You can't afford the chocolate bar</p>"
+    OUTPUT.innerHTML += "<p>Sorry, you can't afford the chocolate bar</p>"
     }
 
     startFunction();
