@@ -42,12 +42,6 @@ function startFunction() {
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
 
-    if(pocketMoney >= 4){
-    console.log("You can afford the chocolate bar");
-
-} else {
-    console.log("Sorry, you can't afford the chocolate bar")
-}
 }
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
@@ -63,6 +57,13 @@ function getFormInput(){
 
     const MONEY_FIELD = document.getElementById("moneyField");
     pocketMoney = Number(MONEY_FIELD.value);
+
+    if(pocketMoney >= 4){
+    console.log("You can afford the chocolate bar");
+
+    } else {
+    console.log("Sorry, you can't afford the chocolate bar")
+    }
 
     startFunction();
 }
