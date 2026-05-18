@@ -61,8 +61,8 @@ function getFormInput(){
 }
 
 if(pocketMoney <= 4){
-    console.log("You can afford the chocolate bar");
+    console.log("You can't afford the chocolate bar");
 
 } else {
-    console.log("You can't afford the chocolate bar");
+    console.log("You can afford the chocolate bar");
 }
