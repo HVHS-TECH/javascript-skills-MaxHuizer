@@ -69,3 +69,7 @@ function getFormInput(){
 
     startFunction();
 }
+
+function calculateChange(){
+    
+}
