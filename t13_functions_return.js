@@ -41,7 +41,7 @@ function startFunction() {
     displayProduct("Chocolate Bar", 4);
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
-
+    calculateChange(pocketMoney, 4);
 }
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
@@ -70,6 +70,7 @@ function getFormInput(){
     startFunction();
 }
 
-function calculateChange(){
-    
+function calculateChange(_money, _price){
+    let change = _money - _price;
+    OUTPUT.innerHTML += "<p>Your change is $" + change +"</p>"
 }
