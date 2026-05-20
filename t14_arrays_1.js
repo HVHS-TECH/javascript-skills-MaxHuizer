@@ -5,6 +5,7 @@ var newAge;
 var pocketMoney;
 var year = "2026"
 var money = 200;
+var Chocolate;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
@@ -42,6 +43,7 @@ function startFunction() {
     displayProduct("Chocolate Bar", 4);
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
+    affordChocolate();
     calculateChange(pocketMoney, 4);
 }
 function displayProduct(_name, _price){
@@ -58,7 +60,14 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyField");
     pocketMoney = Number(MONEY_FIELD.value);
 
-    if(pocketMoney >= 4){
+    const CHOCOLATE_FIELD = document.getElementById("chocolateField")
+    chocolate = Number(CHOCOLATE_FIELD.value);
+
+    startFunction();
+}
+
+function affordChocolate(){
+if(pocketMoney >= 4){
     console.log("You can afford the chocolate bar");
     OUTPUT.innerHTML += "<p>You can afford the chocolate bar</p>"
 
@@ -66,8 +75,6 @@ function getFormInput(){
     console.log("Sorry, you can't afford the chocolate bar")
     OUTPUT.innerHTML += "<p>Sorry, you can't afford the chocolate bar</p>"
     }
-
-    startFunction();
 }
 
 function calculateChange(_money, _price){
