@@ -43,7 +43,6 @@ function startFunction() {
     displayProduct("Chocolate Bar", 4);
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
-    affordChocolate();
     calculateChange(pocketMoney, 4);
 }
 function displayProduct(_name, _price){
@@ -61,13 +60,11 @@ function getFormInput(){
     pocketMoney = Number(MONEY_FIELD.value);
 
     const CHOCOLATE_FIELD = document.getElementById("chocolateField")
-    chocolate = Number(CHOCOLATE_FIELD.value);
+    chocolate = Number(CHOCOLATE_FIELD.value)
 
     startFunction();
-}
 
-function affordChocolate(){
-if(pocketMoney >= 4){
+    if(pocketMoney >= 4){
     console.log("You can afford the chocolate bar");
     OUTPUT.innerHTML += "<p>You can afford the chocolate bar</p>"
 
