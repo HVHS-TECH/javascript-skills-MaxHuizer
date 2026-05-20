@@ -38,13 +38,13 @@ function startFunction() {
     OUTPUT.innerHTML += "<p> You spend half your money now you have $" + pocketMoney + "</p>";
     pocketMoney = pocketMoney + 3;
     OUTPUT.innerHTML += "<p> Then you get $3, now you have $" + pocketMoney + "</p>";
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
     displayProduct("Chocolate Bar", 4);
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
     calculateChange(pocketMoney, 4);
 }
 function displayProduct(_name, _price){
-    OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
 }
 
