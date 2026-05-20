@@ -10,7 +10,9 @@ var Chocolate;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 
-let chocoArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"]
+let chocoArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"];
+let choice = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = +chocoArray[choice];
 /************************** 
 Main Code
 ***************************/
