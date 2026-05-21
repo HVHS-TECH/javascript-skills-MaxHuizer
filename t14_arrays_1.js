@@ -77,7 +77,3 @@ function calculateChange(_money, _price){
     let change = _money - _price;
     OUTPUT.innerHTML += "<p>Your change is $" + change +"</p>"
 }
-
-function likesChocolateOutput(){
-    console.log(chocolateArray[2]);
-}
