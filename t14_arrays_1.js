@@ -5,6 +5,7 @@ var newAge;
 var pocketMoney;
 var year = "2026"
 var money = 200;
+var chocolateArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
@@ -56,6 +57,9 @@ function getFormInput(){
 
     const MONEY_FIELD = document.getElementById("moneyField");
     pocketMoney = Number(MONEY_FIELD.value);
+    
+    const CHOCO_FIELD = document.getElementById("chocoField");
+    chocolateArray = Number(CHOCO_FIELD.value);
 
     if(pocketMoney >= 4){
     console.log("You can afford the chocolate bar");
