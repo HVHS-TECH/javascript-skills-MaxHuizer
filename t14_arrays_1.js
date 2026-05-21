@@ -61,7 +61,7 @@ function getFormInput(){
     pocketMoney = Number(MONEY_FIELD.value);
     
     const CHOCO_FIELD = document.getElementById("chocoField");
-    likes
+    likesChocolate = Number(CHOCO_FIELD.value);
 
     if(pocketMoney >= 4){
     console.log("You can afford the chocolate bar");
@@ -81,5 +81,5 @@ function calculateChange(_money, _price){
 }
 
 likesChocolateOutput(){
-    OUTPUT.innerHTML += likesChocolateArray[likes]
+    OUTPUT.innerHTML += likesChocolateArray[likesChocolate]
 }
