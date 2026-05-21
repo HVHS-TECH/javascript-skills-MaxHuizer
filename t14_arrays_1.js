@@ -5,7 +5,7 @@ var newAge;
 var pocketMoney;
 var year = "2026"
 var money = 200;
-var Chocolate;
+var chocolate;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
@@ -63,7 +63,7 @@ function getFormInput(){
     pocketMoney = Number(MONEY_FIELD.value);
 
     const CHOCOLATE_FIELD = document.getElementById("chocolateField")
-    chocolate = Number(CHOCOLATE_FIELD.value)
+    chocolate = (CHOCOLATE_FIELD.value)
 
     startFunction();
 
