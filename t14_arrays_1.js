@@ -43,6 +43,7 @@ function startFunction() {
     displayProduct("Chips", 3);
     displayProduct("Drink", 2.50);
     calculateChange(pocketMoney, 4);
+    OUTPUT.innerHTML += "" +chocoArray;
 }
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price+"</p>"
