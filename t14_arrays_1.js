@@ -13,7 +13,7 @@ OUTPUT.innerHTML += "<h2>Added by JavaScript</h2>";
 let chocoArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!"];
 let choice = CHOOSE_FIELD.value;
 OUTPUT.innerHTML = +chocoArray[choice];
-/************************** 
+/**************************
 Main Code
 ***************************/
 console.log("Running Task 11")
@@ -62,8 +62,8 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyField");
     pocketMoney = Number(MONEY_FIELD.value);
 
-    const CHOCOLATE_FIELD = document.getElementById("chocolateField")
-    chocolate = (CHOCOLATE_FIELD.value)
+    const CHOCOLATE_FIELD = document.getElementById("chocolateField");
+    chocolate = (CHOCOLATE_FIELD.value);
 
     startFunction();
 
