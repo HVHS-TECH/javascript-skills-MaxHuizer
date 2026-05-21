@@ -59,7 +59,6 @@ function getFormInput(){
     pocketMoney = Number(MONEY_FIELD.value);
     
     const CHOCO_FIELD = document.getElementById("chocoField");
-    chocolateArray = Number(CHOCO_FIELD.value);
 
     if(pocketMoney >= 4){
     console.log("You can afford the chocolate bar");
